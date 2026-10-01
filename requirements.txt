@@ -1,0 +1,8 @@
+pandas>=2.0
+numpy>=1.24
+pytest>=7.4
+
+# Not installed in this environment (authored-not-executed dags/ only needs
+# these to run against a real Airflow deployment):
+# apache-airflow>=2.7
+# apache-airflow-providers-apache-spark>=4.0
